@@ -1,0 +1,82 @@
+%% abtex2-modelo-relatorio-tecnico.tex, v<VERSION> laurocesar
+%% Copyright 2012-2015 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-relatorio-tecnico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Relatório Técnico/Acadêmico em conformidade com 
+% ABNT NBR 10719:2011 Informação e documentação - Relatório técnico e/ou
+% científico - Apresentação
+% Adaptado por Daniel Saad Nogueira Nunes para uso no IFB Taguatinga.
+% ------------------------------------------------------------------------ 
+% ------------------------------------------------------------------------
+
+
+% Como opção escolha 'bacharelado' ou 'licenciatura'
+\documentclass[licenciatura]{pre-projeto-computacao}
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Título do Pré-projeto}
+\autor{Virgulino Ferreira da Silva}
+% para feminino use \orientadora{Nome da orientadora}
+%\orientadora{Maria Bonita}
+\orientador{Padre Cícero}
+
+% para masculino use \coorientador{Nome do coorientador}
+%\coorientador{Padre Cícero}
+\coorientadora{Maria Bonita}
+
+% Linha de pesquisa conforme tabela de áreas do CNPq
+\areadepesquisa{Computabilidade e Modelos de Computação }
+\local{Brasília, DF}
+\data{2018}
+
+\begin{document}
+
+\selectlanguage{brazil}
+\frenchspacing 
+\imprimircapa
+\imprimirfolhaderosto
+
+
+
+\section*{Contextualização}
+	Este modelo visa adaptar a classe ABNTeX2 para utilização no IFB Taguatinga como documento de Pré-projeto, o qual deverá ser submetido para matrícula na disciplina de Projeto de Conclusão de Curso.
+	
+	Neste modelo, apresentamos apenas uma \textbf{sugestão} de seções adotadas com as suas breves descrições. O aluno e orientador podem adotar outra divisão se acharem conveniente.
+	
+	A bibliografia deve seguir o padrão estabelecido pela classe ABNTeX2 \cite{abntex2modelo-relatorio}.
+	
+	A contextualização deverá situar o tema de estudo e introduzir o problema a ser tratado.
+
+\section*{Proposta}
+	A proposta do trabalho deve ser detalhada neste trabalho.
+
+\section*{Justificativa}
+	Deve ser dada a devida menção da importância pesquisa sobre o tema adotado.	
+	
+
+\section*{Objetivos}
+	Os objetivos gerais devem ser elucidados nesta seção.
+
+\bibliography{bibliografia}
+\end{document}
