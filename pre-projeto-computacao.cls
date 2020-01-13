@@ -21,10 +21,11 @@
 % ---
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{pre-projeto-computacao}[2018/03/18 Pré-Projeto para os cursos de Computação do IFB Taguatinga]
+\ProvidesClass{pre-projeto-computacao}[2020/01/13]
 \DeclareOption{bacharelado}{\newcommand{\curso}{Bacharelado em Ci\^encia da Computa\c{c}\~ao}}
 \DeclareOption{licenciatura}{\newcommand{\curso}{Licenciatura em Computa\c{c}\~ao}}
 \ProcessOptions
+
 \LoadClass[
 	% -- opções da classe memoir --
 	12pt,				% tamanho da fonte
@@ -134,7 +135,7 @@
 
 
 \instituicao{%
-	Instituto Federal de Educação, Ciência e Tecnologia de Brasília -- Câmpus Taguatinga
+	Instituto Federal de Educação, Ciência e Tecnologia de Brasília -- Campus Taguatinga
 	\par
 	Curso Superior de \curso
 }
@@ -174,7 +175,7 @@
 \renewcommand{\imprimircapa}{%
   \begin{capa}%
     \center
-    \ABNTEXchapterfont\Large Instituto Federal de Educação, Ciência e Tecnologia de Brasília\\Câmpus Taguatinga
+    \ABNTEXchapterfont\Large Instituto Federal de Educação, Ciência e Tecnologia de Brasília\\ Campus Taguatinga
     \vspace*{1cm}
 
     {\ABNTEXchapterfont\large \imprimirautor}
@@ -205,7 +206,7 @@
 
 \renewcommand{\folhaderostocontent}{
 \begin{center}
-{\ABNTEXchapterfont\Large Instituto Federal de Educação, Ciência e Tecnologia de Brasília\\Câmpus Taguatinga}
+{\ABNTEXchapterfont\Large Instituto Federal de Educação, Ciência e Tecnologia de Brasília\\Campus Taguatinga}
 
     \vspace*{1cm}
 
